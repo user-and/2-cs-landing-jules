@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeScoreOnline - Get Your Free Credit Scores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <img src="img/logo.png" alt="FreeScoreOnline Logo" class="header__logo">
+            <img src="img/million_badge.png" alt="Serving over one million" class="header__badge">
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">GET YOUR FREE<br>CREDIT SCORES</h1>
+                <p class="hero__subtitle">FROM ALL 3 BUREAUS</p>
+
+                <div class="hero__info-grid">
+                    <div class="hero__info-item">
+                        <div class="hero__info-title">7-DAY FREE TRIAL</div>
+                        <div class="hero__info-text">ENDS SEPTEMBER 31, 2016</div>
+                    </div>
+                    <div class="hero__info-item">
+                        <div class="hero__info-title">MONTHLY MEMBERSHIP</div>
+                        <div class="hero__info-text">OF $39.95 AUTOMATICALLY CHARGED AFTER FREE TRIAL</div>
+                    </div>
+                    <div class="hero__info-item">
+                        <div class="hero__info-title">FOR QUESTIONS OR TO CANCEL, JUST CALL</div>
+                        <div class="hero__info-text">1-800-972-7204</div>
+                    </div>
+                </div>
+
+                <div class="hero__gauges">
+                    <div class="gauge-item">
+                        <div class="gauge gauge--small" data-value="691" data-max="850" data-color="#00ADEE">
+                            <svg class="gauge__svg" viewBox="0 0 100 100">
+                                <circle class="gauge__bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="gauge__progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <div class="gauge__content">
+                                <div class="gauge__label">GOOD</div>
+                                <div class="gauge__score">691</div>
+                                <div class="gauge__name">TransUnion</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gauge-item gauge-item--large">
+                        <div class="gauge gauge--large" data-value="706" data-max="850" data-color="#0071BC">
+                            <svg class="gauge__svg" viewBox="0 0 100 100">
+                                <circle class="gauge__bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="gauge__progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <div class="gauge__content">
+                                <div class="gauge__label">GOOD</div>
+                                <div class="gauge__score">706</div>
+                                <div class="gauge__name">Experian</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gauge-item">
+                        <div class="gauge gauge--small" data-value="660" data-max="850" data-color="#00ADEE">
+                            <svg class="gauge__svg" viewBox="0 0 100 100">
+                                <circle class="gauge__bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="gauge__progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <div class="gauge__content">
+                                <div class="gauge__label">FAIR</div>
+                                <div class="gauge__score">660</div>
+                                <div class="gauge__name">Equifax</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero__form-container">
+                <form class="signup-form" id="signupForm">
+                    <h2 class="signup-form__title">START HERE</h2>
+                    <div class="signup-form__field">
+                        <input type="text" name="firstName" placeholder="First Name" required>
+                    </div>
+                    <div class="signup-form__field">
+                        <input type="text" name="lastName" placeholder="Last Name" required>
+                    </div>
+                    <div class="signup-form__field">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="signup-form__field">
+                        <input type="text" name="zipCode" placeholder="Zip Code" pattern="[0-9]{5}" required>
+                    </div>
+                    <div class="signup-form__checkbox">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent">Yes, please send special offers from FreeScoreOnline.com® to my email.</label>
+                    </div>
+                    <button type="submit" class="signup-form__button">
+                        VIEW YOUR FREE SCORES NOW <span class="signup-form__arrow">›</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust-seals">
+        <div class="container trust-seals__container">
+            <div class="trust-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="trust-item__icon"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span>DELIVERED IN SECONDS</span>
+            </div>
+            <div class="trust-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="trust-item__icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 11 11 13 15 9"></polyline></svg>
+                <span>CHECKING YOUR CREDIT PROFILE WILL NOT HARM YOUR SCORES</span>
+            </div>
+            <div class="trust-logos">
+                <img src="img/mcafee.png" alt="McAfee SECURE">
+                <img src="img/norton.png" alt="Norton Secured">
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--light">
+        <div class="container">
+            <h2 class="section__title">WHY DO I NEED TO CHECK MY CREDIT SCORES?</h2>
+            <div class="section__divider"></div>
+            <p class="section__text">Good credit scores are your passport to competitive interest rates for mortgages, cars, credit card offers, insurance premiums, and more. Strong scores are worth money because they may save you in excess costs.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section__title">CREDIT SCORE RATING</h2>
+            <div class="rating-chart">
+                <div class="rating-bar">
+                    <div class="rating-segment rating-segment--poor">POOR</div>
+                    <div class="rating-segment rating-segment--fair">FAIR</div>
+                    <div class="rating-segment rating-segment--good">GOOD</div>
+                    <div class="rating-segment rating-segment--great">GREAT</div>
+                </div>
+                <div class="rating-scale">
+                    <div class="rating-point"><span>300-561</span></div>
+                    <div class="rating-point"><span>562-665</span></div>
+                    <div class="rating-point"><span>666-754</span></div>
+                    <div class="rating-point"><span>755-850</span></div>
+                </div>
+                <div class="rating-details">
+                    <div class="rating-detail">
+                        <p>Nearly 15% of the U.S. population has a credit score of 561 or less. A Poor score makes it difficult for you to qualify for the best interest rates on loans, and lenders may require you to have a co-signer and/or a significant down payment.</p>
+                    </div>
+                    <div class="rating-detail">
+                        <p>For many lenders, Fair is viewed as an "average" credit score. You are not likely to be offered the best interest rates on loans or credit cards, but the terms in most cases will be better than for those with Poor scores.</p>
+                    </div>
+                    <div class="rating-detail">
+                        <p>Good scores get better lending rates. This range typically indicates you are effectively managing your finances, and you are likely to be offered better interest rates on loans or credit cards.</p>
+                    </div>
+                    <div class="rating-detail">
+                        <p>You're in the top range! This means you're a very low-risk borrower and have done a superb job of managing your finances. You'll likely get the very best interest rates on loans or credit cards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--light">
+        <div class="container">
+            <h2 class="section__title">HOW OFTEN SHOULD I CHECK MY CREDIT?</h2>
+            <div class="section__divider"></div>
+            <p class="section__text">It's wise to check your credit reports frequently for signs of fraud or identity theft. Common types of identity theft include fraudulent credit cards and loans, all of which will show up in your credit profile. Early detection is the key to avoiding long-term financial consequences.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section__title">COMMON TYPES OF IDENTITY THEFT</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="feature-card__icon"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                    </div>
+                    <h3 class="feature-card__title">CREDIT CARDS</h3>
+                    <p class="feature-card__text">Credit card fraud occurs when there is unauthorized use of one's credit card account.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="feature-card__icon"><path d="M12 2v8"></path><path d="M16.39 10.16a8 8 0 1 1-8.78 0"></path><path d="M12 18v4"></path><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path></svg>
+                    </div>
+                    <h3 class="feature-card__title">UTILITY FRAUD</h3>
+                    <p class="feature-card__text">Utility fraud occurs when stolen personal and banking information is used to open new utility accounts.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="feature-card__icon"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3 class="feature-card__title">LOANS</h3>
+                    <p class="feature-card__text">Loan fraud involves using another person's personal and credit information to obtain new loans.</p>
+                </div>
+            </div>
+            <div class="section__cta">
+                <a href="#" class="btn-orange">GET YOUR FREE SCORES</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--dark-blue">
+        <div class="container">
+            <h2 class="section__title section__title--white">WHAT IS FACTA?</h2>
+            <p class="section__text section__text--white">The Fair and Accurate Credit Transactions Act (or "FACTA") is a law passed in 2003 that entitles each American to a free credit report each year from each credit bureau (TransUnion, Equifax, and Experian). Limitations include the fact that free credit scores are not included in the program and that you can only receive one free credit report from each credit bureau every 12 months.</p>
+            <p class="section__text section__text--white">Use ScoreSense® to check your credit more often, and obtain scores from ALL three bureaus in one place.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section__title">STAY CURRENT WITH</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="feature-card__icon"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    </div>
+                    <h4 class="feature-card__subtitle">DAILY CREDIT MONITORING & ALERTS</h4>
+                    <p class="feature-card__text">Be informed of suspicious credit activity that may hurt your finances.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="feature-card__icon"><path d="M3 3v18h18"></path><path d="M18 9l-5 5-2-2-5 5"></path></svg>
+                    </div>
+                    <h4 class="feature-card__subtitle">CREDIT SCORES FROM ALL 3 BUREAUS</h4>
+                    <p class="feature-card__text">Get a comprehensive view of your credit profile with scores from all three credit bureaus - TransUnion, Equifax, and Experian.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="feature-card__icon"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line><text x="8" y="18" font-size="8" font-family="sans-serif" font-weight="bold" fill="currentColor">17</text></svg>
+                    </div>
+                    <h4 class="feature-card__subtitle">REPORTS & SCORES UPDATED MONTHLY</h4>
+                    <p class="feature-card__text">All three scores updated monthly, giving you access to your most current credit scores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section__title">PROTECT YOUR CREDIT</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="feature-card__icon"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    </div>
+                    <h4 class="feature-card__subtitle">$1 MILLION IDENTITY THEFT INSURANCE*</h4>
+                    <p class="feature-card__text">Protect your identity and financial future with reimbursement insurance that covers up to $1 million in damages from ID theft.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="feature-card__icon"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                    </div>
+                    <h4 class="feature-card__subtitle">SCORESENSE DISPUTE CENTER</h4>
+                    <p class="feature-card__text">Learn how to correct errors on your credit reports that can affect your scores with help from our Dispute Center.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="feature-card__icon"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h4 class="feature-card__subtitle">INTERACTIVE TOOLS & LEARNING CENTER</h4>
+                    <p class="feature-card__text">Get a better understanding of the impact of your credit and learn what actions may positively or negatively impact your scores.</p>
+                </div>
+            </div>
+            <div class="section__cta">
+                <a href="#" class="btn-orange">GET YOUR FREE SCORES</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__nav">
+                <a href="#">CONTACT US</a>
+                <a href="#">TERMS AND CONDITIONS</a>
+                <a href="#">PRIVACY POLICY</a>
+            </nav>
+            <div class="footer__content">
+                <p>© 2001-2016 One Technologies, LLC. All rights reserved.</p>
+                <p>FreeScoreOnline.com® and ScoreSense® are trademarks of One Technologies, LLC.</p>
+                <p class="footer__small">One Technologies, LLC is the proud owner of this website, as well as ScoreSense.com, FreeScoreOnline.com, FreeScore360.com, NationalCreditReport.com, CheckYourCredit.us, CreditReportCenter.us, CreditScoreCenter.us, CreditScoreOK.net, CreditScoreTracker.net, TripleScores.us, YourCreditScores.co, and FS360.co. For a complete list of our properties, <a href="#">click here</a>.</p>
+                <p class="footer__small">Identity Theft Insurance underwritten by insurance company subsidiaries or affiliates of American International Group, Inc. The description herein is a summary and intended for informational purposes only and does not include all terms, conditions, and exclusions of the policies described. Please refer to the actual policies for terms, conditions, and exclusions of coverage. Coverage may not be available in all jurisdictions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
