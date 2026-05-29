@@ -47,10 +47,7 @@ img {
 }
 
 .header__logo {
-    width: 256px;
-    height: 53px;
-    max-width: none;
-    object-fit: contain;
+    height: 50px;
 }
 
 .header__badge {
