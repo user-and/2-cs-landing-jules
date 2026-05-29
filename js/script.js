@@ -9,11 +9,22 @@ document.addEventListener('DOMContentLoaded', () => {
             let isValid = true;
 
             inputs.forEach(input => {
-                if (!input.value.trim()) {
-                    isValid = false;
-                    input.style.borderBottomColor = 'red';
+                let isFieldValid = true;
+                if (input.type === 'checkbox') {
+                    isFieldValid = input.checked;
                 } else {
-                    input.style.borderBottomColor = '#ddd';
+                    isFieldValid = input.value.trim() !== '';
+                }
+
+                if (!isFieldValid) {
+                    isValid = false;
+                    if (input.type !== 'checkbox') {
+                        input.style.borderBottomColor = 'red';
+                    }
+                } else {
+                    if (input.type !== 'checkbox') {
+                        input.style.borderBottomColor = '#ddd';
+                    }
                 }
             });
 
