@@ -3,9 +3,9 @@
     --primary-blue: #0071BC;
     --light-blue: #00ADEE;
     --dark-blue: #004A7C;
-    --orange: #FF6600;
+    --orange: #FF6000;
     --text-color: #444;
-    --light-gray: #F4F4F4;
+    --light-gray: #f1f7fe;
     --white: #FFFFFF;
     --font-header: 'Montserrat', sans-serif;
     --font-body: 'Open Sans', sans-serif;
@@ -296,6 +296,10 @@ img {
     background-color: var(--white);
 }
 
+.section--off-white {
+    background-color: #f1f6ff;
+}
+
 .section--dark-blue {
     background-color: var(--dark-blue);
     color: var(--white);
@@ -406,22 +410,18 @@ img {
 }
 
 .feature-card__icon-wrap {
-    width: 80px;
-    height: 80px;
-    background-color: var(--dark-blue);
-    border-radius: 10px; /* Actually hexagonal in design, let's try to simulate or just use rounded */
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 20px;
-    color: var(--white);
-    position: relative;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
-.feature-card__icon {
-    width: 32px;
-    height: 32px;
+.feature-card__icon-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .feature-card__title {
