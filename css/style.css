@@ -47,7 +47,7 @@ img {
 }
 
 .header__logo {
-    height: 50px;
+    height: 65px;
 }
 
 .header__badge {
@@ -425,6 +425,7 @@ img {
 }
 
 .feature-card__title {
+    font-family: var(--font-header);
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -432,6 +433,7 @@ img {
 }
 
 .feature-card__subtitle {
+    font-family: var(--font-header);
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 10px;
